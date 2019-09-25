@@ -6,7 +6,7 @@
  * By Mathias Arvidsson
  */
 
-Module.register("domoticz",{
+Module.register("MMM-domoticz",{
 
 	defaults: {
 		units: config.units,
