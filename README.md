@@ -10,7 +10,7 @@ Create your own subfolder in "modules". In that subfolder, create a new subfolde
 In config.js, add the following lines and change it to match your setup and sensors.
 
 		{
-			module: 'marvidsson/domoticz', //folder
+			module: 'MMM-domoticz', //folder
 			header: 'Domoticz',
 			position: 'top_left',
 			config: {
