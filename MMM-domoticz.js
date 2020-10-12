@@ -80,7 +80,7 @@ console.log(this.sensors);
 
 		for (var c in this.sensors) {
 			var sensor = this.sensors[c];
-			if((sensor.status=="On" && sensor.hiddenon)||(sensor.status=="Off" && sensor.hiddenoff)) continue;
+			if((sensor.status=="Klar" && sensor.hiddenon)||(sensor.status=="Av" && sensor.hiddenoff)) continue;
 			var sensorWrapper = document.createElement("tr");
 			sensorWrapper.className = "normal";
 
